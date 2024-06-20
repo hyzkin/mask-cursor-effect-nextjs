@@ -1,12 +1,8 @@
 # 01 - Mask Cursor Effect with Framer Motion and NextJS
 
+![demo image](./image.png)
+
 This project demonstrates a smooth mask cursor effect using Framer Motion and NextJS. It leverages the animation capabilities of Framer Motion to create a dynamic and interactive cursor effect that follows the user's mouse movements.
-
-## Demo Video
-
-To see the mask cursor effect in action, watch the demo video below:
-
-<video src="./demo.mov" autoplay muted loop></video>
 
 ## Installation
 
