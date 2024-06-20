@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 01 - Mask Cursor Effect with Framer Motion and NextJS
 
-## Getting Started
+This project demonstrates a smooth mask cursor effect using Framer Motion and NextJS. It leverages the animation capabilities of Framer Motion to create a dynamic and interactive cursor effect that follows the user's mouse movements.
 
-First, run the development server:
+## Demo Video
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+To see the mask cursor effect in action, watch the demo video below:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<video src="./demo.mov" autoplay muted loop></video>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run this project locally, follow these steps:
 
-## Learn More
+1. **Clone the repository:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/hyzkin/mask-cursor-effect-nextjs.git
+   cd mask-cursor-effect-nextjs
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   pnpm install
+   ```
 
-## Deploy on Vercel
+3. **Start the development server:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   pnpm dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Open your browser and navigate to `http://localhost:3000`.
+
+## Note on Framer Motion Version
+
+For optimal performance, this mask cursor effect works smoothly with Framer Motion `v11.0.10`. Using any version above `v11.0.10` might cause the animation to become noticeably laggy.
+
+## About
+
+This project is built with NextJS and Framer Motion to showcase a creative way of enhancing user interactions with a custom cursor effect.
+
+## More NextJS Projects
+
+Check out my other NextJS projects [here](https://github.com/hyzkin/nextjs-typescript-projects).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any questions or feedback, feel free to reach out to me at [hyzkin@outlook.com](mailto:hyzkin@outlook.com).
