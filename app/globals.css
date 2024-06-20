@@ -31,3 +31,27 @@ body {
     text-wrap: balance;
   }
 }
+
+.main {
+  @apply h-dvh;
+
+  .mask,
+  .body {
+    @apply h-full w-full flex items-center justify-center text-beige text-[64px] leading-[66px] cursor-default;
+
+    span {
+      @apply text-red;
+    }
+
+    p {
+      @apply w-[1000px];
+    }
+  }
+
+  .mask {
+    @apply absolute bg-red text-black;
+    mask-image: url("/mask.svg");
+    mask-repeat: no-repeat;
+    mask-size: 40px;
+  }
+}
